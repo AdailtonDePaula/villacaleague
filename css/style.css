@@ -1,69 +1,535 @@
-*{
-	font-family: Arial;
-	font-size:11px;
-	box-sizing: border-box;
-	margin: 0;
-	padding:0;
-}
-header{
-	background-color: rgb(6, 170,72);
-	color: white;
-	height: 64px;
-	margin-bottom: 10px;
-	padding: 20px;
-}
-header h1{
-	font-size: 17px;
-    text-align: center;
-}
-#rounds{
-	position: relative;
-	width: 250px;
-	height:412px;
-	margin: 0 auto;
-	overflow:hidden;
-}
-.btnSlider{
-	top: 1px;
-    font-size: 25px;
-    color: rgb(6, 170,72);
-    background-color: white;
-    font-weight: 900;
-    position: absolute;
-    z-index: 10;
-}
-.backWard{
-	left: 0;
-}
-.forWard{
-	right: 0;
-}
-.table{
-	display:flex;
-	transition: transform 0.5s ease-in-out;
-	transform: translateX(0);
-}
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="css/style.css">
+		<script type="text/javascript" src="js/script.js" defer></script>
+		<title>Campeonato Villaça League</title>
+	</head>
 
-.round h3{
-	padding: 10px 20px;
-	border-top: 1px solid rgb(6,170,72);
-    border-bottom: 1px solid rgb(6,170,72);
-    font-size: 14px;
-    text-align: center;
-}
-.hour{
-	text-align: center;
-    padding-top: 10px;
-}
-.game{
-	display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    width: 250px;
-    padding: 0 20px;
-    border-bottom: 1px solid lightgray;
-    height: 70px;
-}
-.game div{
-	text-align: center;
-	align-self: center;
-}
+	<body>
+		<header>
+			<h1>CAMPEONATO VILLAÇA LEAGUE</h1>
+		</header>
+	
+	
+		<div id="rounds">
+			<span class="backWard btnSlider"><</span>
+			<span class="forWard btnSlider">></span>
+			<div class="pure-g table">
+				<div class="pure-u-1 round">
+					<h3>1ª RODADA 03/08/24 - Sábado</h3>
+					
+					<div class="hour">9:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">MAROLINHA</div>
+						<div style="font-size:25px; font-weight:900;">4</div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;">6</div>
+						<div class="pure-u-1-3 away team">FLUMINENSE</div>
+					</div>
+
+					<div class="hour">9:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PEGADA DE MACACO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FALCÃO</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLAMENGO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PANTERA</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLA CRIA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">BARCELONA</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>2ª RODADA 10/08/24 - Sábado</h3>
+					
+					<div class="hour">9:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">MAROLINHA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FALCÃO</div>
+					</div>
+					
+					<div class="hour">9:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLUMINENSE</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PANTERA</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PEGADA DE MACACO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">BARCELONA</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLAMENGO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLA CRIA</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>3ª RODADA 17/08/24 - Sábado</h3>
+					
+					<div class="hour">09:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">MAROLINHA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PANTERA</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FALCÃO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">BARCELONA</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLUMINENSE</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLA CRIA</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PEGADA DE MACACO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLAMENGO</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>4ª RODADA 24/08/24 - Sábado</h3>
+					
+					<div class="hour">09:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">MAROLINHA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">BARCELONA</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PANTERA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLA CRIA</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FALCÃO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLAMENGO</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLUMINENSE</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PEGADA DE MACACO</div>
+					</div>
+				</div>
+				<div class="pure-u-1 round">
+					<h3>5ª RODADA 31/08/24 - Sábado</h3>
+					
+					<div class="hour">09:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">MAROLINHA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLA CRIA</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">BARCELONA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLAMENGO</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PANTERA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PEGADA DE MACACO</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FALCÃO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLUMINENSE</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>6ª RODADA 07/09/24 - Sábado</h3>
+					
+					<div class="hour">09:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">MAROLINHA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLAMENGO</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLA CRIA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PEGADA DE MACACO</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">BARCELONA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLUMINENSE</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PANTERA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FALCÃO</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>7ª RODADA 14/09/24 - Sábado</h3>
+					
+					<div class="hour">09:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">MAROLINHA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PEGADA DE MACACO</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLAMENGO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLUMINENSE</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLA CRIA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FALCÃO</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">BARCELONA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PANTERA</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>8ª RODADA 21/09/24 - Sábado</h3>
+					
+					<div class="hour">09:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLUMINENSE</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">MAROLINHA</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FALCÃO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PEGADA DE MACACO</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PANTERA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLAMENGO</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">BARCELONA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLA CRIA</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>9ª RODADA 28/09/24 - Sábado</h3>
+					
+					<div class="hour">09:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FALCÃO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">MAROLINHA</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PANTERA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLUMINENSE</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">BARCELONA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PEGADA DE MACACO</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLA CRIA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLAMENGO</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>10ª RODADA 05/10/24 - Sábado</h3>
+					
+					<div class="hour">09:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PANTERA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">MAROLINHA</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">BARCELONA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FALCÃO</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLA CRIA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLUMINENSE</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLAMENGO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PEGADA DE MACACO</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>11ª RODADA 12/10/24 - Sábado</h3>
+					
+					<div class="hour">09:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">BARCELONA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">MAROLINHA</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLA CRIA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PANTERA</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLAMENGO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FALCÃO</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PEGADA DE MACACO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLUMINENSE</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>12ª RODADA 19/09/24 - Sábado</h3>
+					
+					<div class="hour">09:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLA CRIA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">MAROLINHA</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLAMENGO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">BARCELONA</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PEGADA DE MACACO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PANTERA</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLUMINENSE</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FALCÃO</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>13ª RODADA 26/10/24 - Sábado</h3>
+				
+					<div class="hour">09:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLAMENGO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">MAROLINHA</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PEGADA DE MACACO</div>
+						<<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLA CRIA</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLUMINENSE</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">BARCELONA</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FALCÃO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">PANTERA</div>
+					</div>
+				</div>
+				
+				<div class="pure-u-1 round">
+					<h3>14ª RODADA 02/11/24 - Sábado</h3>
+					
+					<div class="hour">09:00</div>
+
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PEGADA DE MACACO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">MAROLINHA</div>
+					</div>
+					
+					<div class="hour">09:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FLUMINENSE</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLAMENGO</div>
+					</div>
+					
+					<div class="hour">10:10</div>
+
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">FALCÃO</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">FLA CRIA</div>
+					</div>
+					
+					<div class="hour">10:45</div>
+
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">PANTERA</div>
+						<div style="font-size:25px; font-weight:900;"></div><div class="pure-u-1-3 x">X</div><div style="font-size:25px; font-weight:900;"></div>
+						<div class="pure-u-1-3 away team">BARCELONA</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<section id="classificação">
+			<div id="tabela">
+			
+			</div>
+		</section>
+	</body>
+</html>
