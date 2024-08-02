@@ -1,0 +1,69 @@
+*{
+	font-family: Arial;
+	font-size:11px;
+	box-sizing: border-box;
+	margin: 0;
+	padding:0;
+}
+header{
+	background-color: rgb(6, 170,72);
+	color: white;
+	height: 64px;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+header h1{
+	font-size: 17px;
+    text-align: center;
+}
+#rounds{
+	position: relative;
+	width: 250px;
+	height:412px;
+	margin: 0 auto;
+	overflow:hidden;
+}
+.btnSlider{
+	top: 1px;
+    font-size: 25px;
+    color: rgb(6, 170,72);
+    background-color: white;
+    font-weight: 900;
+    position: absolute;
+    z-index: 10;
+}
+.backWard{
+	left: 0;
+}
+.forWard{
+	right: 0;
+}
+.table{
+	display:flex;
+	transition: transform 0.5s ease-in-out;
+	transform: translateX(0);
+}
+
+.round h3{
+	padding: 10px 20px;
+	border-top: 1px solid rgb(6,170,72);
+    border-bottom: 1px solid rgb(6,170,72);
+    font-size: 14px;
+    text-align: center;
+}
+.hour{
+	text-align: center;
+    padding-top: 10px;
+}
+.game{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 250px;
+    padding: 0 20px;
+    border-bottom: 1px solid lightgray;
+    height: 70px;
+}
+.game div{
+	text-align: center;
+	align-self: center;
+}
