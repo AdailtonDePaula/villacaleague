@@ -18,8 +18,7 @@ header h1{
 }
 #rounds{
 	position: relative;
-	width: 250px;
-	height:412px;
+	width: 350px;
 	margin: 0 auto;
 	overflow:hidden;
 }
@@ -57,13 +56,26 @@ header h1{
 }
 .game{
 	display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    width: 250px;
-    padding: 0 20px;
+    grid-template-columns: 100px 50px 50px 50px 100px;
+    width: 350px;
     border-bottom: 1px solid lightgray;
-    height: 70px;
+    height: 120px;
 }
 .game div{
-	text-align: center;
 	align-self: center;
+}
+
+.player-list {
+	font-size: 9px; 
+	text-align: left
+}
+
+.press-conference {
+	border-bottom: 1px solid lightgray;
+	padding: 5px;
+}
+
+.game {
+	text-align: left;
+	font-weight: bold;
 }
