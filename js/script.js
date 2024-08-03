@@ -6,7 +6,7 @@ let idx = 0
 let diferenca = new Date().getTime() - new Date(2024, 7, 3).getTime();
 let dias = Math.floor(diferenca / (1000 * 3600 * 24));
 
-if(dias % 7 == 0) table.style.transform = `translateX(${(dias / 7) * -350}px)`
+if(dias % 7 == 0) table.style.transform = `translateX(${(dias / 7) * -370}px)`
 
 
 function carousel(sense){
@@ -23,14 +23,14 @@ document.querySelector("#rounds").addEventListener("click", (e)=>{
 	switch( true ){
 	case cls.contains('backWard'):
 		console.log(idx)
-		carousel(350)
+		carousel(370)
 
 		
 	break;
 
 	case cls.contains('forWard'):
 		console.log(idx)
-		carousel(-350)
+		carousel(-370)
 	break;
 	}
 })
