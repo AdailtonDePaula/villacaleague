@@ -23,14 +23,14 @@ document.querySelector("#rounds").addEventListener("click", (e)=>{
 	switch( true ){
 	case cls.contains('backWard'):
 		console.log(idx)
-		carousel(370)
+		carousel(320)
 
 		
 	break;
 
 	case cls.contains('forWard'):
 		console.log(idx)
-		carousel(-370)
+		carousel(-320)
 	break;
 	}
 })
