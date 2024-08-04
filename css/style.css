@@ -18,7 +18,7 @@ header h1{
 }
 #rounds{
 	position: relative;
-	width: 370px;
+	width: 320px;
 	margin: 0 auto;
 	overflow:hidden;
 }
@@ -57,7 +57,7 @@ header h1{
 .game{
 	display: grid;
     grid-template-columns: 1fr 30px 30px 30px 1fr;
-    width: 370px;
+    width: 320px;
     border-bottom: 1px solid lightgray;
     height: 120px;
 	font-weight: bold;
@@ -88,7 +88,7 @@ header h1{
 #classification{
 	display:grid;
 	grid-template-columns: 130px 1fr;
-	width: 370px;
+	width: 320px;
 	margin: 10px auto;
 }
 
