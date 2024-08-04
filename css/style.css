@@ -56,26 +56,73 @@ header h1{
 }
 .game{
 	display: grid;
-    grid-template-columns: 100px 50px 50px 50px 100px;
+    grid-template-columns: 1fr 30px 30px 30px 1fr;
     width: 370px;
     border-bottom: 1px solid lightgray;
     height: 120px;
-}
-.game div{
-	align-self: center;
+	font-weight: bold;
+	align-items: center;
 }
 
+.game > .home{
+	text-align: left;
+	
+}
+.game > .away{
+	text-align: right;
+}
 .player-list {
 	font-size: 9px; 
-	text-align: left
 }
-
+.goals{
+	text-align:center;
+}
 .press-conference {
 	border-bottom: 1px solid lightgray;
 	padding: 5px;
 }
+.x{
+	text-align: center;
+}
 
-.game {
-	text-align: left;
-	font-weight: bold;
+#classification{
+	display:grid;
+	grid-template-columns: 130px 1fr;
+	width: 370px;
+	margin: 10px auto;
+}
+
+#classification-team{
+	border-right: 1px solid gray;
+	
+}
+.pos{
+	margin-right: 8px;
+}
+#classification-team *:not(span),  #classification-data *{
+	padding:10px 0;
+	border-bottom: 1px solid lightgray;
+}
+
+#classification-data{
+		display: grid;
+		grid-template-columns: repeat(7, 1fr);
+		
+}
+#classification-data > div:nth-child(even){
+	background-color: rgb(245,245,245)
+	
+}
+#classification-data > div:nth-child(even), #classification-data > div:nth-child(odd){
+	padding: 0;
+}
+#classification-data h2{
+	background-color: white;
+}
+#classification-data *{
+	text-align:center;
+	
+}
+#classification-team *{
+	text-align:left;
 }
