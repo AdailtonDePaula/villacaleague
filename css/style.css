@@ -5,6 +5,11 @@
 	margin: 0;
 	padding:0;
 }
+body{
+	max-width:600px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
 header{
 	background-color: rgb(6, 170,72);
 	color: white;
@@ -18,8 +23,6 @@ header h1{
 }
 #rounds{
 	position: relative;
-	width: 320px;
-	margin: 0 auto;
 	overflow:hidden;
 }
 .btnSlider{
@@ -38,9 +41,10 @@ header h1{
 	right: 0;
 }
 .table{
-	display:flex;
-	transition: transform 0.5s ease-in-out;
-	transform: translateX(0);
+	display: grid;
+    grid-template-columns: repeat(14, 100%);
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
 }
 
 .round h3{
@@ -52,14 +56,13 @@ header h1{
 }
 .hour{
 	text-align: center;
-    padding-top: 10px;
+    padding-top: 6px;
 }
 .game{
 	display: grid;
     grid-template-columns: 1fr 30px 30px 30px 1fr;
-    width: 320px;
     border-bottom: 1px solid lightgray;
-    height: 120px;
+    min-height: 120px;
 	font-weight: bold;
 	align-items: center;
 }
@@ -88,8 +91,6 @@ header h1{
 #classification{
 	display:grid;
 	grid-template-columns: 130px 1fr;
-	width: 320px;
-	margin: 10px auto;
 }
 
 #classification-team{
