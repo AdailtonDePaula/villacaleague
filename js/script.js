@@ -2,36 +2,44 @@ const table = document.querySelector(".table")
 const rounds = table.querySelectorAll(".round")
 
 let idx = 0
+let eleWidth = getComputedStyle(table).getPropertyValue("width")
 
 let diferenca = new Date().getTime() - new Date(2024, 7, 3).getTime();
 let dias = Math.floor(diferenca / (1000 * 3600 * 24));
+console.log(diferenca)
+console.log(dias)
+console.log(`translateX(${-(dias / 7) * eleWidth.substring(0, eleWidth.length - 2)}px)`)
 
-if(dias % 7 == 0) table.style.transform = `translateX(${(dias / 7) * -370}px)`
+if(dias % 7 == 0) table.style.transform = `translateX(${-(dias / 7) * eleWidth.substring(0, eleWidth.length - 2)}px)`
 
 
-function carousel(sense){
-	idx += Math.sign(sense)
+function carousel(sense, eTarget){
+	const eleContainer = document.querySelector(eTarget)
+	eleWidth = getComputedStyle(eleContainer).getPropertyValue("width")
+	idx += sense
 	
 	if(-idx > rounds.length - 1) {idx = 0}else if(idx > 0){idx = -(rounds.length - 1)}
 	
-	table.style.transform = `translateX(${idx * Math.abs(sense)}px)`
+	eleContainer.style.transform = `translateX(${idx * eleWidth.substring(0, eleWidth.length - 2)}px)`
 }
 
 document.querySelector("#rounds").addEventListener("click", (e)=>{
 	var cls = e.target.classList;
 
 	switch( true ){
-	case cls.contains('backWard'):
-		console.log(idx)
-		carousel(320)
+		case cls.contains('backWard'):
+			carousel(+1, ".table")
+		break;
 
-		
-	break;
-
-	case cls.contains('forWard'):
-		console.log(idx)
-		carousel(-320)
-	break;
+		case cls.contains('forWard'):
+			carousel(-1, ".table")
+		break;
+	
 	}
 })
 
+
+
+window.onresize = ()=>{
+	carousel(0, ".table")
+}
