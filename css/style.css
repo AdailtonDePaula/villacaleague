@@ -27,46 +27,43 @@ header h1{
 }
 .btnSlider{
 	top: 1px;
-	font-size: 25px;
-	color: rgb(6, 170,72);
-	background-color: white;
-	width:50px;
-	font-weight: 900;
-	position: absolute;
-	z-index: 10;
+    font-size: 25px;
+    color: rgb(6, 170,72);
+    background-color: white;
+    font-weight: 900;
+    position: absolute;
+    z-index: 10;
 }
 .backWard{
 	left: 0;
 }
 .forWard{
 	right: 0;
-	text-align:right;
 }
 .table{
 	display: grid;
-	grid-template-columns: repeat(14, 100%);
-	transition: transform 0.5s ease-in-out;
-	transform: translateX(0);
+    grid-template-columns: repeat(14, 100%);
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
 }
 
 .round h3{
 	padding: 10px 20px;
 	border-top: 1px solid rgb(6,170,72);
-	border-bottom: 1px solid rgb(6,170,72);
-	font-size: 14px;
-	text-align: center;
+    border-bottom: 1px solid rgb(6,170,72);
+    font-size: 14px;
+    text-align: center;
 }
 .hour{
 	text-align: center;
-	padding-top: 6px;
+    padding-top: 6px;
 }
 .game{
 	display: grid;
-	grid-template-columns: 1fr 30px 30px 30px 1fr;
-	border-bottom: 1px solid lightgray;
-	min-height: 120px;
+    grid-template-columns: 1fr 30px 30px 30px 1fr;
+    border-bottom: 1px solid lightgray;
+    min-height: 120px;
 	font-weight: bold;
-	align-items: center;
 }
 
 .game > .home{
@@ -78,6 +75,7 @@ header h1{
 }
 .player-list {
 	font-size: 9px; 
+	color:gray;
 }
 .goals{
 	text-align:center;
@@ -93,6 +91,7 @@ header h1{
 #classification{
 	display:grid;
 	grid-template-columns: 130px 1fr;
+	border-top: 1px solid lightgray;
 }
 
 #classification-team{
@@ -108,8 +107,8 @@ header h1{
 }
 
 #classification-data{
-	display: grid;
-	grid-template-columns: repeat(7, 1fr);
+		display: grid;
+		grid-template-columns: repeat(7, 1fr);
 		
 }
 #classification-data > div:nth-child(even){
@@ -119,8 +118,13 @@ header h1{
 #classification-data > div:nth-child(even), #classification-data > div:nth-child(odd){
 	padding: 0;
 }
-#classification-data h2{
+#classification-data h2, #classification-team h2{
 	background-color: white;
+    color: gray;
+    font-weight: 100;
+}
+#classification-data div:first-child{
+	font-weight:bold;
 }
 #classification-data *{
 	text-align:center;
@@ -128,4 +132,87 @@ header h1{
 }
 #classification-team *{
 	text-align:left;
+}
+
+#toScorerContainer{
+	display: flex;
+}
+.gui-text-section-title {
+    font-size: 24px;
+    font-family: opensans,"Helvetica Neue",Arial,sans-serif;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+	margin: 10px 0;
+}
+.ranking-header {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #ddd;
+    color: #999;
+    font-size: 11px;
+    text-transform: uppercase;
+	
+}
+.ranking-headerGols {
+    margin-left: auto;
+    padding-right: 20px;
+}
+.artilharia-wrapper .ranking-content {
+    box-sizing: content-box;
+    overflow: auto;
+    height: 430px;
+    border-bottom: 1px solid #ddd;
+}
+.artilharia-wrapper .ranking-item-wrapper {
+    border-bottom: 1px solid #DDD;
+    display: flex;
+    align-items: center;
+}
+.ranking-item {
+    width: 30px;
+    color: #999;
+    font-family: opensans,arial,sans-serif;
+    font-size: 28px;
+}
+.jogador {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 78px;
+}
+.jogador-foto {
+    border-radius: 50px;
+    background-color: #F1F1F1;
+    display: block;
+    height: 50px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 50px;
+}
+.jogador-info {
+    margin-left: 20px;
+}
+.jogador-nome {
+    color: #333;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+.jogador-posicao {
+    color: #999;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3px;
+}
+.jogador-gols {
+    margin-left: auto;
+    padding-right: 20px;
+    color: #333;
+    font-family: 'opensans-bold',arial,sans-serif;
+    font-size: 26px;
 }
