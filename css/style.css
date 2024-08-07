@@ -222,3 +222,6 @@ header h1{
     font-family: 'opensans-bold',arial,sans-serif;
     font-size: 26px;
 }
+.news{
+	background-color: rgb(238,238,238);
+}
