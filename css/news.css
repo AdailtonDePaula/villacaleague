@@ -1,0 +1,44 @@
+main{
+	background-color: rgb(238,238,238);
+	padding: 0 24px;
+}
+.content-head-title{
+	color: rgb(17,17,17);
+    font-size: 32px;
+    letter-spacing: -1.28px;
+    font-weight: 700;
+    line-height: 38.4px;
+}
+.content-head-subtitle{
+	color: rgb(85,85,85);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.32px;
+    line-height: 24px;
+    margin: 16px 0;
+}
+article{
+	margin-bottom: 40px;
+	background-color: white;
+}
+article h2{
+	color: rgb(23, 125, 73);
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: -0.45px;
+	line-height: 27px;
+	text-size-adjust: 100%;
+	padding: 20px;
+}
+article p{
+	color: rgb(51,51,51);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.45px;
+    line-height: 27px;
+    text-size-adjust: 100%;
+    padding: 20px;
+}
+article div footer{
+	padding: 10px 20px;
+}
