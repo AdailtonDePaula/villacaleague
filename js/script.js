@@ -43,3 +43,25 @@ document.querySelector("#rounds").addEventListener("click", (e)=>{
 window.onresize = ()=>{
 	carousel(0, ".table")
 }
+
+function edit(mode){
+	let fields = Array.from(document.querySelector("#classification-data").children)
+	console.log(fields)
+	fields.forEach((field)=>{
+		field.contentEditable = mode;
+	})
+	
+	document.querySelectorAll(".goals").forEach((goal)=>{
+		goal.contentEditable = mode
+	})
+	document.querySelectorAll(".player-list").forEach((list)=>{
+		list.contentEditable = mode
+	})
+	document.querySelectorAll(".press-conference").forEach((press)=>{
+		press.contentEditable = mode
+	})
+	document.querySelectorAll(".teamName").forEach((team)=>{
+		team.contentEditable = mode
+	})
+}
+
