@@ -27,6 +27,7 @@ header h1{
 #rounds{
 	position: relative;
 	overflow:hidden;
+	height: 436px;
 }
 .btnSlider{
 	top: 1px;
@@ -45,7 +46,7 @@ header h1{
 }
 .table{
 	display: grid;
-    grid-template-columns: repeat(15, 100%);
+    grid-template-columns: repeat(5, 100%);
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
 }
