@@ -85,6 +85,7 @@ header h1{
 }
 .goals{
 	text-align:center;
+	width: fit-content;
 }
 .press-conference {
 	border-bottom: 1px solid lightgray;
