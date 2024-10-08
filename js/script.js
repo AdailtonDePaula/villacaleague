@@ -8,7 +8,7 @@ let eleWidth = getComputedStyle(table).getPropertyValue("width")
 let diferenca = new Date().getTime() - new Date(2024, 7, 3).getTime();
 let dias = Math.floor(diferenca / (1000 * 3600 * 24));
 
-table.style.transform = `translateX(${(-(Math.round(dias / 7) - 2)) * eleWidth.substring(0, eleWidth.length - 2)}px)`
+table.style.transform = `translateX(${(-(Math.round(dias / 7) - 3)) * eleWidth.substring(0, eleWidth.length - 2)}px)`
 
 
 function carousel(sense, eTarget){
