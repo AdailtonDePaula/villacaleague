@@ -1,0 +1,600 @@
+<html lang="pt-BR"><head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/news.css">
+		<script type="text/javascript" src="js/script.js" defer=""></script>
+		<title>Campeonato Villaça League</title>
+	</head>
+
+	<body contenteditable="true">
+		<header>
+			<h1>CAMPEONATO VILLAÇA LEAGUE</h1>
+		</header>
+		<h2 class="gui-text-section-title"> TABELA</h2>
+		<section id="classification">
+				<div id="classification-team">
+					<h2>CLASIFICAÇAO</h2>
+						<div><span class="pos">1</span>FLA CRIAS FC</div>
+						<div><span class="pos">2</span>FLAMENGO</div>
+						<div><span class="pos">3&nbsp; &nbsp;OS CRIAS FC</span></div>
+						
+<div><span class="pos">4&nbsp; &nbsp;REAL CRIA</span></div>
+<div><span class="pos">5&nbsp; &nbsp;BANHERISTAS</span></div>
+<div><span class="pos">6&nbsp; &nbsp;OS CRIA DA PAM FC</span></div>
+<div><span class="pos">7&nbsp; &nbsp;OS GALÁTICOS</span></div><div><span class="pos">8&nbsp; &nbsp;BLUE LOCK</span></div>
+						
+						
+						
+						
+				</div>
+				<div id="classification-data">
+					<div>
+						<h2>P</h2>
+						
+                        <div>3</div><div>3</div>
+						
+						<div>3</div><div>3</div>
+						
+						<div>3</div><div>0</div>
+						
+						<div>0</div><div>0</div>
+					</div>
+					
+					<div>
+						<h2>V</h2>
+						
+    <div>1</div><div>1</div>
+						
+						<div>1</div><div>1</div>
+						
+						<div>1</div><div>0</div>
+						
+						<div>0</div><div>0</div>
+					</div>
+					
+					<div>
+						<h2>E</h2>
+						
+    <div>0</div><div>0</div>
+						
+						<div>0</div><div>0</div>
+						
+						<div>0</div><div>0</div>
+						
+						<div>0</div><div>0</div>
+					</div>
+					
+					<div>
+						<h2>D</h2>
+						
+    <div>0</div><div>0</div>
+						
+						<div>0</div><div>1</div>
+						
+						<div>1</div><div>1</div>
+						
+						<div>1</div><div>1</div>
+					</div>
+					
+					<div>
+						<h2>GP</h2>
+						
+    <div>12</div><div>6</div>
+						
+						<div>3</div><div>4</div>
+						
+						<div>3</div><div>0</div>
+						
+						<div>0</div><div>0</div>
+					</div>
+					
+					<div>
+						<h2>GC</h2>
+						
+    <div>0</div><div>1</div>
+						
+						<div>0</div><div>6</div>
+						
+						<div>12</div><div>3</div>
+						
+						<div>3</div><div>3</div>
+					</div>
+					
+					<div>
+						<h2>SG</h2>
+						
+    <div>12</div><div>5</div>
+						
+						<div>3</div><div>-2</div>
+						
+						<div>-9</div><div>-3</div>
+						
+						<div>-3<br></div><div>-3<br></div>
+					</div>
+					
+				</div>
+		</section>
+		<h2 class="gui-text-section-title">JOGOS</h2>
+		<section id="rounds">
+			<span class="backWard btnSlider">&lt;</span>
+			<span class="forWard btnSlider">&gt;</span>
+			<div style="transform: translateX(0px);" class="pure-g table">
+				<div class="pure-u-1 round">
+					<h3>1ª RODADA 23/08/25 - Sábado</h3>
+					
+					<div class="hour">9:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">
+							REAL CRIA<p class="player-list">Luan Gabriel<br>
+								Guilherme<br>
+								Arthur Felizardo<br>
+								Enzo<br>
+								Miguel<br>
+								Thalisson<br>
+								Ryan</p>
+						</div>
+						<div class="goals" style="font-size:25px; font-weight:900;">3</div><div class="pure-u-1-3 x">wo</div><div class="goals" style="font-size:25px; font-weight:900;">0</div>
+						<div class="pure-u-1-3 away team">OS CRIA DA PAM FC<br><p class="player-list">Eduardo<br>Arthur<br>Levi<br>
+								Maicom<br>Marcelo<br>Larah<br><br></p>
+						
+</div>
+					</div>
+					
+
+					<div class="hour">9:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">OS CRIAS FC<br><p class="player-list">
+								Davi Luis<br>
+								Guilherme N.<br>
+								Guilherme<br>
+								Thomas<br>
+								Arthur Santos<br>
+								Arthur Sabino</p>
+						</div>
+						<div class="goals" style="font-size:25px; font-weight:900;">3</div><div class="pure-u-1-3 x">wo</div><div class="goals" style="font-size:25px; font-weight:900;">&nbsp;0</div>
+						<div class="pure-u-1-3 away team">
+							OS GALÁTICOS<p class="player-list">
+								Matheus<br>
+								Gustavo<br>
+								Daniel<br>
+								Bruno<br>
+								Paulo<br>
+								Samuel<br>
+								Richard</p>
+						</div>
+					</div>
+					
+					
+					<div class="hour">9:00</div>
+					
+					<div class="pure-g game" contenteditable="true">
+						<div class="pure-u-1-3 home team">BANHERISTAS<p class="player-list">Enzo Castelano<br>
+								Davi Lucas<br>
+								Lorran<br>
+								Pietro Gumercindo<br>
+								Daniel<br>
+								Leandro<br>
+								Nicolas Marcelo</p>
+</div>
+						<div class="goals" style="font-size:25px; font-weight:900;">3</div><div class="pure-u-1-3 x">wo</div><div class="goals" style="font-size:25px; font-weight:900;">&nbsp;0</div>
+						<div class="pure-u-1-3 away team">BLUE LOCK<br><p class="player-list">Pedro Lucas<br>Yuri Victor<br>Isac J.<br>Caio Lucas<br>Davi<br><br><br></p>
+						</div>
+					</div><div class="hour">9:35</div>
+<div class="pure-g game" contenteditable="true">
+						<div class="pure-u-1-3 home team">FLAMENGO<br><p class="player-list">Kauê Kevyn 1<br>Fabiano 1<br>Theo 2<br>Caio Felipe<br>Davi Delgado 1<br>Mario Jr 1<br>Davi Berguer</p>
+						</div>
+						<div class="goals" style="font-size:25px; font-weight:900;">6</div><div class="pure-u-1-3 x">x</div><div class="goals" style="font-size:25px; font-weight:900;">&nbsp;1</div>
+						<div class="pure-u-1-3 away team">
+							REAL CRIA<p class="player-list">1 Luan Gabriel<br>
+								Guilherme<br>
+								Arthur Felizardo<br>
+								Enzo<br>
+								Miguel<br>
+								Thalisson<br>
+								Ryan</p>
+						</div>
+					</div><div class="hour">10:10</div>
+<div class="pure-g game" contenteditable="true">
+						<div class="pure-u-1-3 home team">FLA CRIAS FC<br><p class="player-list">Nathan 7<br>Arthur<br>Angelo 3<br>Enzo<br>Caio<br>Miguel 2<br><br></p>
+						</div>
+						<div class="goals" style="font-size:25px; font-weight:900;">12</div><div class="pure-u-1-3 x">x</div><div class="goals" style="font-size:25px; font-weight:900;">&nbsp;0</div>
+						<div class="pure-u-1-3 away team">BANHERISTAS<p class="player-list">Enzo Castelano<br>
+								Davi Lucas<br>
+								Lorran<br>
+								Pietro Gumercindo<br>
+								Daniel<br>
+								Leandro<br>
+								Nicolas Marcelo</p></div>
+					</div>
+					
+					
+					
+					
+					
+						
+						
+						
+					
+					
+				</div><div class="pure-u-1 round">
+					<h3>2ª RODADA 06/09/25 - Sábado</h3>
+					
+					<div class="hour">9:00</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">OS CRIAS FC<br><p class="player-list">
+								Davi Luis<br>
+								Guilherme N.<br>
+								Guilherme<br>
+								Thomas<br>
+								Arthur Santos<br>
+								Arthur Sabino</p>
+						</div>
+						<div class="goals" style="font-size:25px; font-weight:900;"><br></div><div class="pure-u-1-3 x">x</div><div class="goals" style="font-size:25px; font-weight:900;"><br></div>
+						<div class="pure-u-1-3 away team">OS CRIA DA PAM FC<br><p class="player-list">Eduardo<br>Arthur<br>Levi<br>
+								Maicom<br>Marcelo<br>Larah<br><br></p>
+						
+</div>
+					</div>
+					
+
+					<div class="hour">9:35</div>
+					
+					<div class="pure-g game">
+						<div class="pure-u-1-3 home team">BLUE LOCK<br><p class="player-list">Pedro Lucas<br>Yuri Victor<br>Isac J.<br>Caio Lucas<br>Davi<br><br><br></p>
+						</div>
+						<div class="goals" style="font-size:25px; font-weight:900;"><br></div><div class="pure-u-1-3 x">x</div><div class="goals" style="font-size:25px; font-weight:900;">&nbsp;</div>
+						<div class="pure-u-1-3 away team">
+							OS GALÁTICOS<p class="player-list">
+								Matheus<br>
+								Gustavo<br>
+								Daniel<br>
+								Bruno<br>
+								Paulo<br>
+								Samuel<br>
+								Richard</p>
+						</div>
+					</div>
+					
+					
+					
+					
+					<div class="hour">10:10</div>
+<div class="pure-g game" contenteditable="true">
+						<div class="pure-u-1-3 home team">BANHERISTAS<p class="player-list">Enzo Castelano<br>
+								Davi Lucas<br>
+								Lorran<br>
+								Pietro Gumercindo<br>
+								Daniel<br>
+								Leandro<br>
+								Nicolas Marcelo</p></div>
+						<div class="goals" style="font-size:25px; font-weight:900;"><br></div><div class="pure-u-1-3 x">x</div><div class="goals" style="font-size:25px; font-weight:900;">&nbsp;</div>
+						<div class="pure-u-1-3 away team">
+							REAL CRIA<p class="player-list">1 Luan Gabriel<br>
+								Guilherme<br>
+								Arthur Felizardo<br>
+								Enzo<br>
+								Miguel<br>
+								Thalisson<br>
+								Ryan</p>
+						</div>
+					</div><div class="hour">10:45</div>
+<div class="pure-g game" contenteditable="true">
+						<div class="pure-u-1-3 home team">FLA CRIAS FC<br><p class="player-list">Nathan 7<br>Arthur<br>Angelo 3<br>Enzo<br>Caio<br>Miguel 2<br><br></p>
+						</div>
+						<div class="goals" style="font-size:25px; font-weight:900;"><br></div><div class="pure-u-1-3 x">x</div><div class="goals" style="font-size:25px; font-weight:900;">&nbsp;</div>
+						<div class="pure-u-1-3 away team">FLAMENGO<br><p class="player-list">Kauê Kevyn 1<br>Fabiano 1<br>Theo 2<br>Caio Felipe<br>Davi Delgado 1<br>Mario Jr 1<br>Davi Berguer</p>
+						</div>
+					</div>
+					
+					
+					
+					
+					
+						
+						
+						
+					
+					
+				</div>
+				
+				
+				
+				
+				
+				
+
+			</div>
+		</section>
+	<section class="artilharia-wrapper"> 
+			<h2 class="gui-text-section-title artilharia-header-titulo">Artilharia</h2> 
+			<div class="ranking"> 
+				<div class="ranking-wrapper"> 
+					<div class="ranking-header"> 
+						<div>Ranking</div> 
+						<div class="ranking-headerGols">Gols</div> 
+					</div>
+					
+					<div class="ranking-content"> 
+						<div class="ranking-item-wrapper"> 
+							<div class="ranking-item"> 1 </div> 
+							
+							<div class="jogador"> 
+								<div class="jogador-foto"> 
+									<img src="img/perfil.png" width="50" height="50" alt="Pedro">
+								</div> 
+								
+								 
+								
+								<div class="jogador-info">
+                                    
+									<div class="jogador-nome">Nathan Phelipe</div> 
+									 
+								</div> 
+								
+								<div class="jogador-gols">7</div> 
+							</div> 
+							
+						</div>
+					<div class="ranking-item-wrapper"> 
+							<div class="ranking-item"> 2 </div> 
+							
+							<div class="jogador"> 
+								<div class="jogador-foto"> 
+									<img src="img/perfil.png" width="50" height="50" alt="Pedro">
+								</div> 
+								
+								 
+								
+								<div class="jogador-info">
+                                    
+									<div class="jogador-nome">Ângelo</div> 
+									 
+								</div> 
+								
+								<div class="jogador-gols">3</div> 
+							</div> 
+							
+						</div>
+						<div class="ranking-item-wrapper"> 
+							<div class="ranking-item">3</div> 
+							
+							<div class="jogador"> 
+								<div class="jogador-foto"> 
+									<img src="img/perfil.png" width="50" height="50" alt="Pedro">
+								</div> 
+								
+								 
+								
+								<div class="jogador-info">
+                                    
+									<div class="jogador-nome">Theo</div> 
+									 
+								</div> 
+								
+								<div class="jogador-gols">2</div> 
+							</div> 
+							
+						</div><div class="ranking-item-wrapper"> 
+							<div class="ranking-item"><br></div> 
+							
+							<div class="jogador"> 
+								<div class="jogador-foto"> 
+									<img src="img/perfil.png" width="50" height="50" alt="Pedro">
+								</div> 
+								
+								 
+								
+								<div class="jogador-info"> 
+									<div class="jogador-nome"><span style="font-size: 20px;">Miguel</span><br></div> 
+									 
+								</div> 
+								
+								<div class="jogador-gols">2</div> 
+							</div> 
+							
+						</div> 
+						
+						<div class="ranking-item-wrapper"> 
+							<div class="ranking-item">4</div> 
+							
+							<div class="jogador"> 
+								<div class="jogador-foto"> 
+									<img src="img/perfil.png" width="50" height="50" alt="Pedro">
+								</div> 
+								
+								 
+								
+								<div class="jogador-info">
+                                    
+									<div class="jogador-nome">Kauê Kevyn</div> 
+									 
+								</div> 
+								
+								<div class="jogador-gols">1</div> 
+							</div> 
+							
+						</div>
+						<div class="ranking-item-wrapper"> 
+							<div class="ranking-item"><br></div> 
+							
+							<div class="jogador"> 
+
+								<div class="jogador-foto"> 
+									<img src="img/perfil.png" width="50" height="50" alt="Lucero"> 
+								</div> 
+								
+								 
+								
+								<div class="jogador-info"><div class="jogador-nome">Fabiano</div> 
+									 
+								</div>
+								
+								<div class="jogador-gols">1</div> 
+							</div> 
+						</div>
+						<div class="ranking-item-wrapper"> 
+							<div class="ranking-item"><br></div> 
+							
+							<div class="jogador"> 
+								<div class="jogador-foto"> 
+									<img src="img/perfil.png" width="50" height="50" alt="Pedro">
+								</div> 
+								
+								 
+								
+								<div class="jogador-info">
+                                    
+									<div class="jogador-nome">Davi Delgado</div> 
+									 
+								</div> 
+								
+								<div class="jogador-gols">1</div> 
+							</div> 
+							
+						</div>
+						<div class="ranking-item-wrapper"> 
+							<div class="ranking-item"><br></div> 
+							
+							<div class="jogador"> 
+
+								<div class="jogador-foto"> 
+									<img src="img/perfil.png" width="50" height="50" alt="Lucero"> 
+								</div> 
+								
+								 
+								
+								<div class="jogador-info"> 
+									<div class="jogador-nome">Mario Jr</div> 
+									 
+								</div>
+								
+								<div class="jogador-gols">1</div> 
+							</div> 
+						</div>
+
+						<div class="ranking-item-wrapper"> 
+							<div class="ranking-item"><br></div> 
+							
+							<div class="jogador"> 
+								<div class="jogador-foto"> 
+									<img src="img/perfil.png" width="50" height="50" alt="Pedro">
+								</div> 
+								
+								 
+								
+								<div class="jogador-info"><div class="jogador-nome">Luan Gabriel</div> 
+									 
+								</div> 
+								
+								<div class="jogador-gols">1</div> 
+							</div> 
+							
+						</div>
+						
+
+						
+						 
+							
+						
+						
+						 
+
+					</div>
+     
+				</div>
+			</div>
+		</section>
+		<section class="news">
+				<article>
+					<h2>O campeonato começou repleto de wo, mas duas partidas com bola rolando protagonizaram grandes goleadas e confrontos intensos.</h2>
+					
+					<p>
+						Saiba como foi.
+						<a href="Final.html">Clique aqui</a>
+					</p> 
+					
+					<div>
+						<img src="img/R1230825-1.jpg" width="100%" alt="foto">
+					</div>
+					<footer>
+						O jogo entre Flamengo e Real Cria teve disputas intensas.
+					</footer>
+					
+					<hr>	
+				</article>
+				
+				
+				
+				
+
+				
+				
+				
+				
+				<article>
+					<h2>
+						Saiba mais sobre o termo W.O. no futebol.
+					</h2>
+					<p>
+						O W.O. ou walkover (em inglês) é a atribuição de uma vitória a uma equipe ou competidor 
+						quando a equipe adversária está impossibilitada de competir. Isto pode acontecer devido 
+						a não existência de um número mínimo de esportistas necessários para uma partida, 
+						desqualificação, não-apresentação de uma equipe na data e hora estabelecidas, entre outros. 
+						O termo é aplicável no futebol e em outros esportes, mas pode também ser utilizado em eleições 
+						e eventos relacionados, como por exemplo, um debate pré-eleitoral.
+						No futebol, como exemplo, um W.O. pode ocorrer pela não-apresentação de uma equipe com no máximo 
+						11 jogadores e no mínimo 7, dos quais um tem que ser o goleiro. Se no decorrer da partida jogar 
+						com menos do que o mínimo (7 jogadores), seja por jogadores lesionados que não possam ser 
+						substituídos ou por expulsões, a equipe também perde por W.O. (perdendo por 3 gols a 0).
+					</p>
+					
+					<div>
+						<img src="img/WOFamosos.png" width="100%" alt="foto">
+						
+						
+						<footer>
+							Fonte: Wikipedia
+						</footer>
+					</div>
+					
+					<hr>	
+				</article>
+				
+				<article>
+					<h2>
+						W.O. duplo
+					</h2>
+					<p>
+						O Campeonato Carioca de Futebol de 1998 foi marcado por diversos Walkovers, inclusive um WO 
+						duplo num Fla-Flu, algo que nunca havia acontecido na história.
+						Um caso raro de W.O. duplo no futebol ocorreu no dia 11 de dezembro de 2016. Nessa data, as 
+						equipes da Chapecoense e do Atlético Mineiro deveriam se enfrentar em confronto válido pela 
+						última rodada do Campeonato Brasileiro de 2016. Ainda fortemente abalada pelo desastre aéreo 
+						que vitimou 71 pessoas, a maioria jogadores e membros da comissão técnica, a equipe de Chapecó 
+						decidiu não entrar em campo. Em solidariedade, o Atlético Mineiro optou por não enviar seus 
+						jogadores à Arena Condá, onde seria realizada a partida.
+						Conforme determina o regulamento da CBF, o árbitro da partida anotou na súmula que nenhuma 
+						das equipes compareceu ao estádio, e ambas foram declaradas derrotadas pelo placar de 3x0.
+						Na 4ª divisão do Campeonato Carioca aconteceram vários W.O. duplos, devido a dificuldades de 
+						inscrições de jogadores e clubes que foram excluídos após três W.O.
+					</p>
+					
+					<div>
+						<footer>
+							Fonte: Wikipedia
+						</footer>
+					</div>
+					
+					<hr>	
+				</article>
+		</section>
+
+
+
+
+</body></html>
