@@ -1,14 +1,14 @@
 const table = document.querySelector(".table")
 const rounds = table.querySelectorAll(".round")
 
-let idx = 0
+let idx = -(rounds.length - 1)
 let eleWidth = getComputedStyle(table).getPropertyValue("width")
 
 
 let diferenca = new Date().getTime() - new Date(2024, 7, 3).getTime();
 let dias = Math.floor(diferenca / (1000 * 3600 * 24));
 
-table.style.transform = `translateX(${-(rounds.length - 1) * eleWidth.substring(0, eleWidth.length - 2)}px)`
+table.style.transform = `translateX(${idx * eleWidth.substring(0, eleWidth.length - 2)}px)`
 
 
 function carousel(sense, eTarget){
@@ -39,6 +39,7 @@ document.querySelector("#rounds").addEventListener("click", (e)=>{
 window.onresize = ()=>{
 	carousel(0, ".table")
 }
+
 
 
 
