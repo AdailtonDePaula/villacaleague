@@ -174,7 +174,7 @@ header h1{
 .artilharia-wrapper .ranking-content {
     box-sizing: content-box;
     overflow: auto;
-    height: 430px;
+    max-height: 430px;
     border-bottom: 1px solid #ddd;
 }
 .artilharia-wrapper .ranking-item-wrapper {
