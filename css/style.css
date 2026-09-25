@@ -24,6 +24,34 @@ header h1{
     text-align: center;
 	color:white;
 }
+#classification  > :first-child{
+	font-weight: bold;
+}
+.lineTable{
+	display: grid;
+    grid-template-columns: 30% repeat(7, 1fr);
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.lineTable > div{
+	padding: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.lineTable > :first-child{
+	border-right: 1px solid lightgray;
+}
+
+.Club{
+	display: grid;
+    grid-template-columns: 10px 50px 1fr;
+    gap: 5px;
+    align-items: center;
+}
+.Club > :last-child{
+	text-align: left;
+    font-weight: bold;
+}
 #rounds{
 	position: relative;
 	overflow:hidden;
@@ -97,51 +125,7 @@ header h1{
     font-size: 21px;
 }
 
-#classification{
-	display:grid;
-	grid-template-columns: 150px 1fr;
-	border-top: 1px solid lightgray;
-}
 
-#classification-team{
-	border-right: 1px solid gray;
-	
-}
-.pos{
-	margin-right: 8px;
-}
-#classification-team *:not(span),  #classification-data *{
-	padding:10px 0;
-	border-bottom: 1px solid lightgray;
-}
-
-#classification-data{
-		display: grid;
-		grid-template-columns: repeat(7, 1fr);
-		
-}
-#classification-data > div:nth-child(even){
-	background-color: rgb(245,245,245)
-	
-}
-#classification-data > div:nth-child(even), #classification-data > div:nth-child(odd){
-	padding: 0;
-}
-#classification-data h2, #classification-team h2{
-	background-color: white;
-    color: gray;
-    font-weight: 100;
-}
-#classification-data div:first-child{
-	font-weight:bold;
-}
-#classification-data *{
-	text-align:center;
-	
-}
-#classification-team *{
-	text-align:left;
-}
 
 #toScorerContainer{
 	display: flex;
