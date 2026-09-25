@@ -27,6 +27,9 @@ header h1{
 #classification  > :first-child{
 	font-weight: bold;
 }
+#classification > :first-child > div {
+    font-size: 12px;
+}
 .lineTable{
 	display: grid;
     grid-template-columns: 45% repeat(7, 1fr);
